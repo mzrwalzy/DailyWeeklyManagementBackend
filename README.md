@@ -1,6 +1,8 @@
 # DailyWeeklyManagementBackend
 日报周报管理系统后端-fastapi
 
+## 框架
+fastapi-framework from xiyusullos
 
 ## 启动方式
 ### 安装依赖
