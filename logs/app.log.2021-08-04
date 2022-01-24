@@ -1,0 +1,2284 @@
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92084]
+INFO:     Started server process [98191]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98191]
+INFO:     Started server process [98250]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98250]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [98270] using watchgod
+INFO:     Started server process [98273]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 40, in full_handle
+    cls.handle()
+AttributeError: type object 'ListOperation' has no attribute 'handle'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98273]
+INFO:     Started server process [98299]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 40, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 23, in handle
+    data = db.query(Model).offset(skip).limit(page_size).all()
+AttributeError: 'Depends' object has no attribute 'query'
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 40, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 23, in handle
+    data = db.query(Model).offset(skip).limit(page_size).all()
+AttributeError: 'Depends' object has no attribute 'query'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98299]
+INFO:     Started server process [98324]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98324]
+INFO:     Started server process [98340]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 40, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 23, in handle
+    data = db.query(Model).offset(skip).limit(page_size).all()
+AttributeError: 'Depends' object has no attribute 'query'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98340]
+INFO:     Started server process [98367]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 40, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 23, in handle
+    data = db.query(Model).offset(skip).limit(page_size).all()
+AttributeError: 'Depends' object has no attribute 'query'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98367]
+INFO:     Started server process [98389]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 41, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 24, in handle
+    data = db.query(Model).offset(skip).limit(page_size).all()
+AttributeError: 'async_generator' object has no attribute 'query'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98389]
+INFO:     Started server process [98421]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 41, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 22, in handle
+    with get_db() as db:
+AttributeError: __enter__
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98421]
+INFO:     Started server process [98453]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 41, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 22, in handle
+    db = next(get_db())
+TypeError: 'async_generator' object is not an iterator
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98453]
+INFO:     Started server process [98480]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 41, in full_handle
+    cls.handle()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py", line 22, in handle
+    for db in get_db():
+TypeError: 'async_generator' object is not iterable
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98480]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/master_alias_info.py']'. Reloading...
+INFO:     Started server process [98509]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98509]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Started server process [98551]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98551]
+INFO:     Stopping reloader process [98270]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [98555] using watchgod
+INFO:     Started server process [98560]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98560]
+INFO:     Started server process [98572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98572]
+INFO:     Stopping reloader process [98555]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [98582] using watchgod
+INFO:     Started server process [98585]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98585]
+INFO:     Started server process [98599]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98599]
+INFO:     Started server process [98628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98628]
+INFO:     Started server process [98641]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98641]
+INFO:     Started server process [98674]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/__init__.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98674]
+INFO:     Started server process [98711]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98711]
+INFO:     Started server process [98722]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98722]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Started server process [99443]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99443]
+INFO:     Started server process [99463]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99463]
+INFO:     Started server process [99477]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99477]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/address.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/master_alias_info.py']'. Reloading...
+INFO:     Started server process [99518]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99518]
+INFO:     Started server process [99575]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [99575]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [1989]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for BaseTransformer
+response
+  value is not a valid dict (type=type_error.dict)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1989]
+INFO:     Stopping reloader process [98582]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2003] using watchgod
+INFO:     Started server process [2010]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     Finished server process [2010]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2032] using watchgod
+INFO:     Started server process [2036]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for OrmTransformer
+response -> id
+  field required (type=value_error.missing)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2036]
+INFO:     Started server process [2041]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 141, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/encoders.py", line 107, in jsonable_encoder
+    jsonable_encoder(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/encoders.py", line 145, in jsonable_encoder
+    return jsonable_encoder(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/encoders.py", line 93, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/encoders.py", line 130, in jsonable_encoder
+    return ENCODERS_BY_TYPE[type(obj)](obj)
+  File "pydantic/json.py", line 51, in pydantic.json.lambda
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc0 in position 16: invalid start byte
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2041]
+INFO:     Started server process [2060]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for OrmTransformer
+response -> id
+  field required (type=value_error.missing)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2060]
+INFO:     Stopping reloader process [2032]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2080] using watchgod
+INFO:     Started server process [2085]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for OrmTransformer
+response -> id
+  field required (type=value_error.missing)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2085]
+INFO:     Stopping reloader process [2080]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2092] using watchgod
+INFO:     Started server process [2095]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2095]
+INFO:     Started server process [2124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2124]
+INFO:     Started server process [2139]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/__init__.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2139]
+INFO:     Started server process [2162]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2162]
+INFO:     Started server process [2166]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2166]
+INFO:     Started server process [2322]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2322]
+INFO:     Started server process [2383]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2383]
+INFO:     Started server process [2539]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/_all.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2539]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/__init__.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/__init__.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/master_task_info.py']'. Reloading...
+INFO:     Started server process [2669]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/models/_all.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2669]
+INFO:     Started server process [2681]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2681]
+INFO:     Started server process [2692]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2692]
+INFO:     Started server process [2702]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2702]
+INFO:     Started server process [2771]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 6 validation errors for Address
+response -> id
+  field required (type=value_error.missing)
+response -> address
+  field required (type=value_error.missing)
+response -> district
+  field required (type=value_error.missing)
+response -> city_id
+  field required (type=value_error.missing)
+response -> postal_code
+  field required (type=value_error.missing)
+response -> phone
+  field required (type=value_error.missing)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2771]
+INFO:     Started server process [2785]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2785]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Stopping reloader process [2092]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3255] using watchgod
+INFO:     Started server process [3257]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3257]
+INFO:     Started server process [3360]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3360]
+INFO:     Started server process [3472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3472]
+INFO:     Started server process [3542]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/__init__.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3542]
+INFO:     Started server process [3560]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/main.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3560]
+INFO:     Started server process [3575]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3575]
+INFO:     Stopping reloader process [3255]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3601] using watchgod
+INFO:     Started server process [3603]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3603]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Started server process [3675]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3675]
+INFO:     Started server process [3695]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3695]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [3714]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3714]
+INFO:     Started server process [3719]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3719]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Started server process [3791]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 6 validation errors for Address
+response -> id
+  field required (type=value_error.missing)
+response -> address
+  field required (type=value_error.missing)
+response -> district
+  field required (type=value_error.missing)
+response -> city_id
+  field required (type=value_error.missing)
+response -> postal_code
+  field required (type=value_error.missing)
+response -> phone
+  field required (type=value_error.missing)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3791]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [3854]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 6 validation errors for Address
+response -> id
+  field required (type=value_error.missing)
+response -> address
+  field required (type=value_error.missing)
+response -> district
+  field required (type=value_error.missing)
+response -> city_id
+  field required (type=value_error.missing)
+response -> postal_code
+  field required (type=value_error.missing)
+response -> phone
+  field required (type=value_error.missing)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3854]
+INFO:     Started server process [3864]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3864]
+INFO:     Started server process [3884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/types_.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3884]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/types_.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [4176]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4176]
+INFO:     Started server process [4187]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4187]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Stopping reloader process [3601]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4563] using watchgod
+INFO:     Started server process [4567]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/__init__.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4567]
+INFO:     Started server process [4582]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4582]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [9139]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9139]
+INFO:     Started server process [9173]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9173]
+INFO:     Started server process [9194]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9194]
+INFO:     Started server process [9205]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9205]
+INFO:     Started server process [9214]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9214]
+INFO:     Started server process [9237]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9237]
+INFO:     Started server process [9260]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9260]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [9317]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9317]
+INFO:     Started server process [9332]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9332]
+INFO:     Started server process [9375]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9375]
+INFO:     Started server process [9396]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9396]
+INFO:     Started server process [9419]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9419]
+INFO:     Started server process [9439]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9439]
+INFO:     Started server process [9454]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9454]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [9495]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9495]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [9583]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9583]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [9680]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9680]
+INFO:     Stopping reloader process [4563]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9684] using watchgod
+INFO:     Started server process [9690]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/types_.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     Finished server process [9690]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9834] using watchgod
+INFO:     Started server process [9839]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9839]
+INFO:     Started server process [9857]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9857]
+INFO:     Started server process [9882]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9882]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [10033]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10033]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [10106]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10106]
+INFO:     Started server process [10129]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10129]
+INFO:     Started server process [10192]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10192]
+INFO:     Started server process [10207]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10207]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py']'. Reloading...
+INFO:     Started server process [10336]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 67, in create
+    return self.repository.create(payload)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 37, in create
+    db.commit()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1048, "Column 'location' cannot be null")
+[SQL: INSERT INTO address (address, address2, district, city_id, postal_code, phone, location) VALUES (%(address)s, %(address2)s, %(district)s, %(city_id)s, %(postal_code)s, %(phone)s, %(location)s)]
+[parameters: {'address': 'test', 'address2': None, 'district': '1', 'city_id': 1, 'postal_code': '', 'phone': '', 'location': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/services.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10336]
+INFO:     Started server process [10360]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10360]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [10407]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 67, in create
+    return self.repository.create(payload)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 39, in create
+    db.commit()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1048, "Column 'location' cannot be null")
+[SQL: INSERT INTO address (address, address2, district, city_id, postal_code, phone, location) VALUES (%(address)s, %(address2)s, %(district)s, %(city_id)s, %(postal_code)s, %(phone)s, %(location)s)]
+[parameters: {'address': 'test', 'address2': None, 'district': '1', 'city_id': 1, 'postal_code': '', 'phone': '', 'location': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10407]
+INFO:     Started server process [10422]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10422]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [10467]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/types_.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10467]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [10537]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10537]
+INFO:     Started server process [10541]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10541]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Started server process [10570]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10570]
+INFO:     Started server process [10635]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 49, in partial_update
+    for key, value in model.dict(exclude={self.pk}).items():
+AttributeError: 'Address' object has no attribute 'dict'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10635]
+INFO:     Started server process [10675]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10675]
+INFO:     Started server process [10715]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/types_.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10715]
+INFO:     Started server process [10937]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10937]
+INFO:     Started server process [10955]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10955]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Started server process [11005]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11005]
+INFO:     Started server process [11087]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11087]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Started server process [11137]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11137]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [11242]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 101, in partial_update
+    return self.repository.partial_update(payload)
+TypeError: partial_update() missing 1 required positional argument: 'payload'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11242]
+INFO:     Started server process [11251]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 101, in partial_update
+    return self.repository.partial_update(id, payload)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 48, in partial_update
+    for key, value in model.dict(exclude={self.pk}).items():
+AttributeError: 'Address' object has no attribute 'dict'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11251]
+INFO:     Started server process [11262]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 101, in partial_update
+    return self.repository.partial_update(id, payload)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 52, in partial_update
+    db.commit()
+AttributeError: 'Depends' object has no attribute 'commit'
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11262]
+INFO:     Started server process [11279]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11279]
+INFO:     Stopping reloader process [9834]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11289] using watchgod
+INFO:     Started server process [11293]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     Finished server process [11293]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11313] using watchgod
+INFO:     Started server process [11317]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 398, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 81, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/starlette/concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "/Users/x/.pyenv/versions/3.9.5/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py", line 79, in create
+    return self.repository.create(payload)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py", line 38, in create
+    db.commit()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1583, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1452, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/x/works/NJYTZYFZ/codes/my_fastapi/venv/lib/python3.9/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1048, "Column 'location' cannot be null")
+[SQL: INSERT INTO address (address, address2, district, city_id, postal_code, phone, location) VALUES (%(address)s, %(address2)s, %(district)s, %(city_id)s, %(postal_code)s, %(phone)s, %(location)s)]
+[parameters: {'address': '47 MySakila Drive--', 'address2': None, 'district': '1', 'city_id': 1, 'postal_code': '', 'phone': '', 'location': None}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11317]
+INFO:     Started server process [11333]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11333]
+INFO:     Started server process [11354]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11354]
+INFO:     Started server process [11377]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11377]
+INFO:     Started server process [11399]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11399]
+INFO:     Started server process [11416]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11416]
+INFO:     Stopping reloader process [11313]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11423] using watchgod
+INFO:     Started server process [11428]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11428]
+INFO:     Started server process [11445]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11445]
+INFO:     Started server process [11470]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11470]
+INFO:     Started server process [11489]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11489]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/actions/_base.py']'. Reloading...
+INFO:     Started server process [11648]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11648]
+INFO:     Started server process [11667]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/address.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11667]
+INFO:     Started server process [11680]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/actor.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11680]
+INFO:     Started server process [11698]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/repositories/_base.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/actor.py']'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11698]
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/address.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/actor.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/transformers/__init__.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/__init__.py', '/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/validators/actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['/Users/x/works/NJYTZYFZ/codes/my_fastapi/core/resources/address.py']'. Reloading...
+INFO:     Started server process [11815]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11815]
+INFO:     Stopping reloader process [11423]

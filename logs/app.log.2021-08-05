@@ -1,0 +1,133 @@
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [20220] using watchgod
+INFO:     Started server process [19724]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\main.py']'. Reloading...
+INFO:     Started server process [4712]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\main.py']'. Reloading...
+INFO:     Started server process [14692]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\main.py']'. Reloading...
+INFO:     Started server process [10356]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\resources\\category.py']'. Reloading...
+INFO:     Started server process [14180]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\transformers\\category.py']'. Reloading...
+INFO:     Started server process [716]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\validators\\category.py']'. Reloading...
+INFO:     Started server process [8780]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\transformers\\category.py', 'E:\\fastapi_demo\\core\\validators\\category.py', 'E:\\fastapi_demo\\core\\resources\\category.py']'. Reloading...
+INFO:     Started server process [13548]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\resources\\city.py']'. Reloading...
+INFO:     Started server process [14648]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\transformers\\city.py']'. Reloading...
+INFO:     Started server process [11944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\validators\\city.py']'. Reloading...
+INFO:     Started server process [7464]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\transformers\\city.py', 'E:\\fastapi_demo\\core\\validators\\city.py', 'E:\\fastapi_demo\\core\\resources\\city.py']'. Reloading...
+INFO:     Started server process [6184]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\repositories\\actor.py']'. Reloading...
+INFO:     Started server process [13668]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\actions\\actor.py']'. Reloading...
+INFO:     Started server process [10788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\actions\\actor.py', 'E:\\fastapi_demo\\core\\repositories\\actor.py', 'E:\\fastapi_demo\\core\\resources\\actor.py']'. Reloading...
+INFO:     Started server process [17464]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\actions\\actor.py']'. Reloading...
+INFO:     Started server process [14824]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\validators\\actor.py', 'E:\\fastapi_demo\\core\\validators\\city.py']'. Reloading...
+INFO:     Started server process [14476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\validators\\actor.py']'. Reloading...
+INFO:     Started server process [17400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 154, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\concurrency.py", line 40, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "D:\program\python39\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\fastapi_demo\core\actions\_base.py", line 86, in create
+    return self.repository.create(payload)
+  File "E:\fastapi_demo\core\repositories\_base.py", line 36, in create
+    model = self.Model(**payload.dict())
+  File "<string>", line 4, in __init__
+  File "E:\fastapi_demo\venv\lib\site-packages\sqlalchemy\orm\state.py", line 480, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "E:\fastapi_demo\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "E:\fastapi_demo\venv\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "E:\fastapi_demo\venv\lib\site-packages\sqlalchemy\orm\state.py", line 477, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "E:\fastapi_demo\venv\lib\site-packages\sqlalchemy\orm\decl_base.py", line 1142, in _declarative_constructor
+    raise TypeError(
+TypeError: 'actor' is an invalid keyword argument for Actor
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\repositories\\actor.py']'. Reloading...
+INFO:     Started server process [10568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

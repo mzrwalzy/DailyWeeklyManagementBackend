@@ -1,0 +1,126 @@
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19696] using watchgod
+INFO:     Started server process [22628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for Tactic
+response
+  value is not a valid list (type=type_error.list)
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for Tactic
+response
+  value is not a valid list (type=type_error.list)
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\fastapi_demo\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    response_data = await serialize_response(
+  File "E:\fastapi_demo\venv\lib\site-packages\fastapi\routing.py", line 130, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 1 validation error for Tactic
+response
+  value is not a valid list (type=type_error.list)
+WARNING:  WatchGodReload detected file change in '['E:\\fastapi_demo\\core\\actions\\_base.py']'. Reloading...
+INFO:     Started server process [9240]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

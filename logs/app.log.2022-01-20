@@ -1,0 +1,1974 @@
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18328] using watchgod
+INFO:     Started server process [4188]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4188]
+INFO:     Stopping reloader process [18328]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6320] using watchgod
+INFO:     Started server process [8048]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8048]
+INFO:     Stopping reloader process [6320]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [17200] using watchgod
+INFO:     Started server process [13328]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13328]
+INFO:     Stopping reloader process [17200]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [15328] using watchgod
+INFO:     Started server process [10532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10532]
+INFO:     Stopping reloader process [15328]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2932] using watchgod
+INFO:     Started server process [19700]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19700]
+INFO:     Stopping reloader process [2932]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6428] using watchgod
+INFO:     Started server process [5188]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5188]
+INFO:     Stopping reloader process [6428]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11192] using watchgod
+INFO:     Started server process [12752]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12752]
+INFO:     Stopping reloader process [11192]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11648] using watchgod
+INFO:     Started server process [11644]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11644]
+INFO:     Stopping reloader process [11648]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2040] using watchgod
+INFO:     Started server process [6468]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6468]
+INFO:     Stopping reloader process [2040]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9816] using watchgod
+INFO:     Started server process [14748]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14748]
+INFO:     Stopping reloader process [9816]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [16416] using watchgod
+INFO:     Started server process [5608]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5608]
+INFO:     Stopping reloader process [16416]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2600] using watchgod
+INFO:     Started server process [19472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19472]
+INFO:     Stopping reloader process [2600]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18584] using watchgod
+INFO:     Started server process [13484]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13484]
+INFO:     Stopping reloader process [18584]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12640] using watchgod
+INFO:     Started server process [19352]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\actor.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\user.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\resources\\user.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\resources\\actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\transformers\\user.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\transformers\\actor.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\validators\\actor.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\validators\\user.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\models\\add.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\actions\\actor.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\actions\\user.py']'. Reloading...
+INFO:     Stopping reloader process [12640]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6492] using watchgod
+INFO:     Started server process [1652]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\resources\\user.py']'. Reloading...
+INFO:     Started server process [15768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15768]
+INFO:     Stopping reloader process [6492]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12068] using watchgod
+INFO:     Started server process [2524]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2524]
+INFO:     Stopping reloader process [12068]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [15676] using watchgod
+INFO:     Started server process [18272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\actions\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\validators\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\resources\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\transformers\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\models\\report.py']'. Reloading...
+INFO:     Stopping reloader process [15676]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8552] using watchgod
+INFO:     Started server process [6516]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\actions\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\resources\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [15132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14128]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [5156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [21972]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21972]
+INFO:     Stopping reloader process [8552]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [14748] using watchgod
+INFO:     Started server process [14276]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 26, in download_daily_report
+    df.to_excel(file, index=False)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 2284, in to_excel
+    formatter.write(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\formats\excel.py", line 834, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 48, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14276]
+INFO:     Stopping reloader process [14748]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18036] using watchgod
+INFO:     Started server process [21004]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [12612]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\utils.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\utils.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\utils.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\utils.py']'. Reloading...
+INFO:     Started server process [16940]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16940]
+INFO:     Stopping reloader process [18036]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19496] using watchgod
+INFO:     Started server process [23616]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 29, in download_daily_report
+    df = pd.read_excel(daily_template)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1191, in __init__
+    ext = inspect_excel_format(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1075, in inspect_excel_format
+    buf = stream.read(PEEK_SIZE)
+  File "D:\program\python39\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x82 in position 16: invalid start byte
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23616]
+INFO:     Stopping reloader process [19496]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18268] using watchgod
+INFO:     Started server process [16124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 29, in download_daily_report
+    df = pd.read_excel(daily_template)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1191, in __init__
+    ext = inspect_excel_format(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1075, in inspect_excel_format
+    buf = stream.read(PEEK_SIZE)
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa2 in position 50: illegal multibyte sequence
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16124]
+INFO:     Stopping reloader process [18268]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21852] using watchgod
+INFO:     Started server process [23416]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 29, in download_daily_report
+    df = pd.read_excel(daily_template)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1191, in __init__
+    ext = inspect_excel_format(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 1075, in inspect_excel_format
+    buf = stream.read(PEEK_SIZE)
+  File "D:\program\python39\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x82 in position 16: invalid start byte
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [21520]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21520]
+INFO:     Stopping reloader process [21852]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2444] using watchgod
+INFO:     Started server process [3436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 29, in download_daily_report
+    df = pd.read_excel(self.get_daily_template(), encoding='utf-8')
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: read_excel() got an unexpected keyword argument 'encoding'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3436]
+INFO:     Stopping reloader process [2444]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [7044] using watchgod
+INFO:     Started server process [22456]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22456]
+INFO:     Stopping reloader process [7044]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10228] using watchgod
+INFO:     Started server process [5888]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 30, in download_daily_report
+    print(df[0][1])
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [1764]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1764]
+INFO:     Stopping reloader process [10228]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [5948] using watchgod
+INFO:     Started server process [4936]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 30, in download_daily_report
+    print(df.ix[0])
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 5487, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'ix'
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [20088]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20088]
+INFO:     Stopping reloader process [5948]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [15256] using watchgod
+INFO:     Started server process [6452]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 31, in download_daily_report
+    print(df.iloc([0, 1]))
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\indexing.py", line 637, in __call__
+    axis = self.obj._get_axis_number(axis)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 546, in _get_axis_number
+    return cls._AXIS_TO_AXIS_NUMBER[axis]
+TypeError: unhashable type: 'list'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6452]
+INFO:     Stopping reloader process [15256]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21316] using watchgod
+INFO:     Started server process [17532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17532]
+INFO:     Stopping reloader process [21316]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12260] using watchgod
+INFO:     Started server process [23836]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23836]
+INFO:     Stopping reloader process [12260]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [17200] using watchgod
+INFO:     Started server process [19992]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19992]
+INFO:     Stopping reloader process [17200]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24092] using watchgod
+INFO:     Started server process [11744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11744]
+INFO:     Stopping reloader process [24092]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24072] using watchgod
+INFO:     Started server process [21360]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21360]
+INFO:     Stopping reloader process [24072]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23964] using watchgod
+INFO:     Started server process [16032]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [6036]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [21248]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [11272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [16436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [12736]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12736]
+INFO:     Stopping reloader process [23964]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6684] using watchgod
+INFO:     Started server process [23284]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23284]
+INFO:     Stopping reloader process [6684]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1404] using watchgod
+INFO:     Started server process [18344]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18344]
+INFO:     Stopping reloader process [1404]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23644] using watchgod
+INFO:     Started server process [23524]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [6624]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [19660]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [18592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [18672]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [15640]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [24044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [15548]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [10928]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10928]
+INFO:     Stopping reloader process [23644]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12856] using watchgod
+INFO:     Started server process [24212]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [13196]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13196]
+INFO:     Stopping reloader process [12856]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23076] using watchgod
+INFO:     Started server process [23008]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 45, in download_daily_report
+    df.to_excel(file_path, index=False)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 2284, in to_excel
+    formatter.write(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\formats\excel.py", line 834, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 52, in __init__
+    super().__init__(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 925, in __init__
+    self.handles = get_handle(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'E:\\GitHub\\DailyWeeklyManagement\\assets\\excel\\2022_01_20.xlsx'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23008]
+INFO:     Stopping reloader process [23076]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [7836] using watchgod
+INFO:     Started server process [3804]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 49, in download_daily_report
+    cell = wb['A1:F1']
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet A1:F1 does not exist.'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3804]
+INFO:     Stopping reloader process [7836]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21388] using watchgod
+INFO:     Started server process [10280]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 48, in download_daily_report
+    cell = wb['A1']
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet A1 does not exist.'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10280]
+INFO:     Stopping reloader process [21388]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23960] using watchgod
+INFO:     Started server process [13876]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [24024]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24024]
+INFO:     Stopping reloader process [23960]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10920] using watchgod
+INFO:     Started server process [6464]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [21680]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21680]
+INFO:     Stopping reloader process [10920]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23972] using watchgod
+INFO:     Started server process [7832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [23972]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22984] using watchgod
+INFO:     Started server process [21124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [22984]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [14104] using watchgod
+INFO:     Started server process [17208]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 19, in download_daily_report
+    file_path = os.path.join(self.get_save_dir(), file_name)
+AttributeError: 'ReportRepository' object has no attribute 'get_save_dir'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17208]
+INFO:     Stopping reloader process [14104]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [16124] using watchgod
+INFO:     Started server process [6660]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6660]
+INFO:     Stopping reloader process [16124]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1276] using watchgod
+INFO:     Started server process [19900]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [19864]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [6424]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [18456]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [5060]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py', 'E:\\GitHub\\DailyWeeklyManagement\\core\\utils.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [23792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [1276]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24488] using watchgod
+INFO:     Started server process [13304]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [23528]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [576]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [5868]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [22440]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [10584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [17348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14576]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [13876]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [19484]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [24508]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [7172]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [7256]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [1432]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [23044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [7284]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [13364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [23740]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14936]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [18336]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18336]
+INFO:     Stopping reloader process [24488]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11412] using watchgod
+INFO:     Started server process [6380]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [22632]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22632]
+INFO:     Stopping reloader process [11412]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9764] using watchgod
+INFO:     Started server process [5572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5572]
+INFO:     Stopping reloader process [9764]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10396] using watchgod
+INFO:     Started server process [16664]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 67, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 105, in alter_daily_style
+    worksheet.merge_cells(f'B{index}, C{index}')
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\worksheet.py", line 592, in merge_cells
+    mcr = MergedCellRange(self, range_string)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\merge.py", line 68, in __init__
+    super().__init__(range_string=coord)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\cell_range.py", line 53, in __init__
+    min_col, min_row, max_col, max_row = range_boundaries(range_string)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\utils\cell.py", line 135, in range_boundaries
+    raise ValueError(msg)
+ValueError: B8, C8 is not a valid coordinate or range
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16664]
+INFO:     Stopping reloader process [10396]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18552] using watchgod
+INFO:     Started server process [23600]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 67, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 104, in alter_daily_style
+    worksheet.merge_cells(f'B{index}, C{index}')
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\worksheet.py", line 592, in merge_cells
+    mcr = MergedCellRange(self, range_string)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\merge.py", line 68, in __init__
+    super().__init__(range_string=coord)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\worksheet\cell_range.py", line 53, in __init__
+    min_col, min_row, max_col, max_row = range_boundaries(range_string)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\utils\cell.py", line 135, in range_boundaries
+    raise ValueError(msg)
+ValueError: B8, C8 is not a valid coordinate or range
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23600]
+INFO:     Stopping reloader process [18552]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2496] using watchgod
+INFO:     Started server process [24344]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24344]
+INFO:     Stopping reloader process [2496]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23296] using watchgod
+INFO:     Started server process [11940]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [13504] using watchgod
+INFO:     Started server process [16752]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16752]
+INFO:     Stopping reloader process [13504]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8844] using watchgod
+INFO:     Started server process [23884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23884]
+INFO:     Stopping reloader process [8844]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11204] using watchgod
+INFO:     Started server process [13072]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 68, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 98, in alter_daily_style
+    cell.font = Font(size=14)
+AttributeError: 'tuple' object has no attribute 'font'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13072]
+INFO:     Stopping reloader process [11204]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1468] using watchgod
+INFO:     Started server process [23744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 68, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 99, in alter_daily_style
+    c.font = Font(size=14)
+AttributeError: 'tuple' object has no attribute 'font'
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [20348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [1468]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21608] using watchgod
+INFO:     Started server process [22668]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [22272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [21608]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9776] using watchgod
+INFO:     Started server process [23932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 68, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 88, in alter_daily_style
+    j.style = NamedStyle(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\styles\styleable.py", line 78, in __set__
+    instance.parent.parent.add_named_style(style)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 344, in add_named_style
+    self._named_styles.append(style)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\styles\named_styles.py", line 193, in append
+    raise ValueError("""Style {0} exists already""".format(style.name))
+ValueError: Style Normal exists already
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23932]
+INFO:     Stopping reloader process [9776]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [15132] using watchgod
+INFO:     Started server process [11944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 68, in download_daily_report
+    self.alter_daily_style(ws, len(plan))
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 88, in alter_daily_style
+    j.style = self.normal_style
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\styles\styleable.py", line 78, in __set__
+    instance.parent.parent.add_named_style(style)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 344, in add_named_style
+    self._named_styles.append(style)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\openpyxl\styles\named_styles.py", line 193, in append
+    raise ValueError("""Style {0} exists already""".format(style.name))
+ValueError: Style n exists already
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11944]
+INFO:     Stopping reloader process [15132]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19448] using watchgod
+INFO:     Started server process [14528]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14528]
+INFO:     Stopping reloader process [19448]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2668] using watchgod
+INFO:     Started server process [23908]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [1740]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [24004]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24004]
+INFO:     Stopping reloader process [2668]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23440] using watchgod
+INFO:     Started server process [23988]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23988]
+INFO:     Stopping reloader process [23440]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2340] using watchgod
+INFO:     Started server process [12516]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 64, in download_daily_report
+    df.to_excel(file_path, index=False)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 2284, in to_excel
+    formatter.write(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\formats\excel.py", line 834, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 52, in __init__
+    super().__init__(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 925, in __init__
+    self.handles = get_handle(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'E:\\GitHub\\DailyWeeklyManagement\\assets\\excel\\daily\\2022_01_20.xlsx'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12516]
+INFO:     Stopping reloader process [2340]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2392] using watchgod
+INFO:     Started server process [11772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11772]
+INFO:     Stopping reloader process [2392]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2444] using watchgod
+INFO:     Started server process [8552]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8552]
+INFO:     Stopping reloader process [2444]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10168] using watchgod
+INFO:     Started server process [19696]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19696]
+INFO:     Stopping reloader process [10168]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24464] using watchgod
+INFO:     Started server process [15832]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15832]
+INFO:     Stopping reloader process [24464]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6004] using watchgod
+INFO:     Started server process [9400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [7804]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7804]
+INFO:     Stopping reloader process [6004]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12540] using watchgod
+INFO:     Started server process [20036]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20036]
+INFO:     Stopping reloader process [12540]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21608] using watchgod
+INFO:     Started server process [20860]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14760]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14760]
+INFO:     Stopping reloader process [21608]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9028] using watchgod
+INFO:     Started server process [5948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5948]
+INFO:     Stopping reloader process [9028]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24416] using watchgod
+INFO:     Started server process [22240]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22240]
+INFO:     Stopping reloader process [24416]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4748] using watchgod
+INFO:     Started server process [3532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3532]
+INFO:     Stopping reloader process [4748]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1784] using watchgod
+INFO:     Started server process [23592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [18080]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18080]
+INFO:     Stopping reloader process [1784]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [14240] using watchgod
+INFO:     Started server process [19780]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19780]
+INFO:     Stopping reloader process [14240]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21724] using watchgod
+INFO:     Started server process [22872]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Stopping reloader process [21724]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24408] using watchgod
+INFO:     Started server process [16228]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 396, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 81, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\uvicorn\middleware\debug.py", line 78, in __call__
+    await self.app(scope, receive, inner_send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\applications.py", line 208, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 86, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\middleware\cors.py", line 142, in simple_response
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\starlette\routing.py", line 52, in app
+    response = await func(request)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 219, in app
+    raw_response = await run_endpoint_function(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\fastapi\routing.py", line 152, in run_endpoint_function
+    return await dependant.call(**values)
+  File "E:\GitHub\DailyWeeklyManagement\core\repositories\report.py", line 132, in download_daily_report_for
+    df.to_excel(file_path, index=False)
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\core\generic.py", line 2284, in to_excel
+    formatter.write(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\formats\excel.py", line 834, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_openpyxl.py", line 52, in __init__
+    super().__init__(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\excel\_base.py", line 925, in __init__
+    self.handles = get_handle(
+  File "E:\GitHub\DailyWeeklyManagement\venv\lib\site-packages\pandas\io\common.py", line 711, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\GitHub\\DailyWeeklyManagement\\assets\\excel\\daily\\2022_01_20_weekly\\2022_01_20_0.xlsx\\2022_01_20_1.xlsx'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16228]
+INFO:     Stopping reloader process [24408]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11096] using watchgod
+INFO:     Started server process [20776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [22916]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22916]
+INFO:     Stopping reloader process [11096]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12612] using watchgod
+INFO:     Started server process [24228]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24228]
+INFO:     Stopping reloader process [12612]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11164] using watchgod
+INFO:     Started server process [788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [788]
+INFO:     Stopping reloader process [11164]
+INFO:     Uvicorn running on http://0.0.0.0:5000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22512] using watchgod
+INFO:     Started server process [10720]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchGodReload detected file change in '['E:\\GitHub\\DailyWeeklyManagement\\core\\repositories\\report.py']'. Reloading...
+INFO:     Started server process [14108]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14108]
+INFO:     Stopping reloader process [22512]
