@@ -17,6 +17,9 @@ from core.validators.report import ReportValidator
 
 class ReportRepository(BaseRepository):
 
+    def __init__(self):
+        self.all_style = self.normal_style
+
     async def download_daily_report(self, id: int):
         db_client = get_db()
         db = next(db_client)
@@ -179,8 +182,7 @@ class ReportRepository(BaseRepository):
         return os.path.join(assets_dir(), 'excel', 'daily')
 
     def alter_daily_style(self, worksheet, plan_length):
-        worksheet_name = worksheet.title
-        n_style = self.normal_style(worksheet_name)
+        n_style = self.all_style
         for i in worksheet.rows:
             for j in i:
                 j.style = n_style
@@ -214,6 +216,7 @@ class ReportRepository(BaseRepository):
         # 明天工作计划
         worksheet.merge_cells(f'A{end_index + 1}:C{end_index + 1}')
         worksheet.merge_cells(f'D{end_index + 1}:F{end_index + 1}')
+        return
 
     def get_daily_template(self, name, date_with_slash, plan, advice, tomorrow_plan):
         res = self.title_template(name, date_with_slash)
@@ -232,10 +235,10 @@ class ReportRepository(BaseRepository):
         res += tomorrow_plan_title
         return res
 
-    @staticmethod
-    def normal_style(name):
+    @property
+    def normal_style(self):
         return NamedStyle(
-            name=f'all_{name}',
+            name=f'all',
             font=Font(size=14),
             border=Border(left=Side(style='thin'),
                           right=Side(style='thin'),
