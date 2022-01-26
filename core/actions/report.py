@@ -1,5 +1,5 @@
-from core.actions._base import SingleAction, CreateAction, DetailAction
-from core.transformers.report import DailyReportTransformer
+from core.actions._base import SingleAction, CreateAction, DetailAction, ListAction
+from core.transformers.report import DailyReportTransformer, NearlySevenDaysEditTimeTransformer
 from core.types_ import Transformer
 
 
@@ -34,3 +34,11 @@ class GetDailyReportByTime(DetailAction):
 
     def init_handle(self):
         self.handle = self.repository.get_daily_report_by_time
+
+
+class GetReportTimeInSevenDaysAction(ListAction):
+    path = '/time/{id}'
+    Transformer = NearlySevenDaysEditTimeTransformer
+
+    def init_handle(self):
+        self.handle = self.repository.get_nearly_seven_days_daily_report_edit_time

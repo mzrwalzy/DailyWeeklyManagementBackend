@@ -2,17 +2,14 @@ import typing as tp
 
 from fastapi import Depends, Header
 from fastapi.security import OAuth2PasswordRequestForm
-from requests import request
 
 from core.cache import cache
 from core.configs import db as DB
-from core.exceptions._all import TokenVerifyException, NormalException
-from core.extensions.authorization import authenticate_user, create_access_token, fetch_token, oauth2_scheme, \
-    verify_token
+from core.exceptions._all import NormalException
+from core.extensions.authorization import authenticate_user, create_access_token, verify_token
 from core.models.user import UserEmployee, UserDailyPlan, Position, Condition
 from core.repositories._base import BaseRepository
 from core.services import get_db
-from core.validators.user import LoginValidator
 
 
 class UserRepository(BaseRepository):

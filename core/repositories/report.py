@@ -349,3 +349,32 @@ class ReportRepository(BaseRepository):
                     'advice': '',
                     'tomorrow_plan': ''}
         return res.to_dict()
+
+    def get_nearly_seven_days_daily_report_edit_time(self, id: int):
+        db_client = get_db()
+        db = next(db_client)
+        current_day_time = to_date()
+        seven_days_before_time = arrow.get(from_date()).shift(days=-6).format('YYYY-MM-DD HH:mm:ss')
+        results = db.query(DailyPlan).filter(DailyPlan.user_id == id,
+                                             func.date(DailyPlan.create_time) >= seven_days_before_time,
+                                             func.date(DailyPlan.create_time) <= current_day_time).all()
+        current_day_time_day = current_day_time.split(' ')[0]
+        seven_days_before_time_day = seven_days_before_time.split(' ')[0]
+
+        delta = arrow.get(current_day_time_day) - arrow.get(seven_days_before_time_day)
+
+        all_7_days = {}
+
+        for i in range(delta.days + 1):
+            d = arrow.get(seven_days_before_time_day).shift(days=i).format('MM-DD')
+            all_7_days[d] = {'day': d, 'time': ''}
+
+        for r in results:
+            create_time = str(r.create_time)
+            day, time = create_time.split(' ')[0], create_time
+            day = day.split('-', 1)[1]
+            all_7_days[day]['time'] = time
+
+        res = list(map(lambda x: x[1], all_7_days.items()))
+
+        return res
