@@ -22,3 +22,12 @@ class DailyReportTransformer(BaseTransformer):
 class NearlySevenDaysEditTimeTransformer(BaseTransformer):
     day: str
     time: str
+
+
+class WeeklyPlanTransformer(BaseTransformer):
+    id: int
+    user_id: int
+    title: str
+    start_time: str
+    end_time: str
+    create_time: str

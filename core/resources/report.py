@@ -1,5 +1,6 @@
-from core.actions.report import DownloadDailyReportAction, DownloadDailyReportAllAction, AddDailyReport, \
-    GetDailyReportByTime, GetReportTimeInSevenDaysAction
+from core.actions.report import (DownloadDailyReportAction, DownloadDailyReportAllAction, AddDailyReport,
+                                 GetDailyReportByTime, GetReportTimeInSevenDaysAction, AddOrUpdateWeeklyPlan,
+                                 GetWeeklyPlan)
 from core.repositories.report import ReportRepository
 from core.resources._base import BaseResource
 from core.transformers.report import Report as Transformer
@@ -11,7 +12,7 @@ class ReportResource(BaseResource):
     path = '/reports'
 
     Actions = [DownloadDailyReportAction, DownloadDailyReportAllAction, AddDailyReport, GetDailyReportByTime,
-               GetReportTimeInSevenDaysAction]
+               GetReportTimeInSevenDaysAction, AddOrUpdateWeeklyPlan, GetWeeklyPlan]
 
     repository = ReportRepository()
     Transformer = Transformer

@@ -13,3 +13,12 @@ class ReportValidator(BaseValidator):
     daily_plan: tp.List[DailyPlanValidator]
     advice: str
     tomorrow_plan: str
+
+
+class WeeklyPlanValidator(BaseValidator):
+    id: int = None
+    user_id: int
+    title: str
+    start_time: str
+    end_time: str
+    update: bool = False

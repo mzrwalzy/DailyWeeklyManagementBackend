@@ -8,11 +8,11 @@ from openpyxl.styles import Font, Alignment, NamedStyle, Border, Side
 from sqlalchemy import func
 from starlette.responses import FileResponse
 
-from core.models.report import DailyPlan, Employee
+from core.models.report import DailyPlan, Employee, WeeklyPlan
 from core.repositories._base import BaseRepository
 from core.services import get_db
 from core.utils import assets_dir, underline_date, slash_date, from_date, to_date, current_time
-from core.validators.report import ReportValidator
+from core.validators.report import ReportValidator, WeeklyPlanValidator
 
 
 class ReportRepository(BaseRepository):
@@ -378,3 +378,50 @@ class ReportRepository(BaseRepository):
         res = list(map(lambda x: x[1], all_7_days.items()))
 
         return res
+
+    def add_or_update_weekly_plan(self, payload: WeeklyPlanValidator):
+        db_client = get_db()
+        db = next(db_client)
+        p = payload.dict()
+        is_update = p.pop('update')
+        if is_update is False:
+            p['create_time'] = current_time()
+
+            wp = WeeklyPlan(**p)
+            db.add(wp)
+            db.flush()
+            id = wp.id
+            p.update({'id': id})
+            res = p
+        else:
+            id = p.pop('id')
+
+            db.query(WeeklyPlan).filter(WeeklyPlan.id == id).update(p)
+            db.flush()
+            res = p.update({'id': id})
+
+        return res
+
+    # def update_weekly_plan(self, id: int, payload: WeeklyPlanValidator):
+    #     db_client = get_db()
+    #     db = next(db_client)
+    #
+    #     res = db.query(WeeklyPlan).filter(WeeklyPlan.id == id).update(**payload.dict())
+    #     db.flush()
+    #     print(res)
+    #     return res
+
+    def get_weekly_plan(self, id: int):
+        db_client = get_db()
+        db = next(db_client)
+
+        res = db.query(WeeklyPlan).filter(WeeklyPlan.user_id == id).all()
+        results = []
+        for r in res:
+            r = r.to_dict()
+            end_time = arrow.get(r['end_time']).format('YYYY-MM-DD')
+            start_time = arrow.get(r['start_time']).format('YYYY-MM-DD')
+            create_time = arrow.get(r['create_time']).format('YYYY-MM-DD')
+            r.update({'end_time': end_time, 'start_time': start_time, 'create_time': create_time})
+            results.append(r)
+        return results
